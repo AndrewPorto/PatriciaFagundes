@@ -1,0 +1,573 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Castoro:ital@0;1&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #FFB0DB;
+ 
+    
+}
+
+header a {
+    margin: 0 auto;
+  
+    padding: 5px 25px;
+}
+
+header a .logo {
+    height: 120px;
+    border-radius: 50%;
+}
+
+.home {
+    background-image: url(../img/bg2.jpg);
+    height: calc(100vh - 88px);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.home .container {
+    flex-direction: column;
+}
+
+.home .container .div-text {
+    margin-top: 120px;
+}
+
+.div-text h2 {
+    font-size: 40px;
+    color: #FFF;
+    font-family: 'Carter One', cursive;
+    text-shadow: 1px 1px #00000079;
+}
+
+.div-text h3 {
+    color: #FFF;
+    font-family: 'Castoro', serif;
+    font-size: 24px;
+    font-weight: 200;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.btn {
+    font-family: 'Inter', sans-serif;
+    padding: 14px 0;
+    width: 320px;
+    background-color: #FA6739;
+    display: block;
+    color: #FFF;
+    border-radius: 15px;
+    font-size: 22px;
+    font-weight: 300;
+    text-align: center;
+    box-shadow: 2px 2px 2px #00000034;
+    transition: .5s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.vantagens {
+    background-image: url(../img/01.png);
+   
+    background-position: center;
+    background-size: cover;
+}
+
+.vantagens .container {
+    height: 100vh;
+}
+
+.img-profile {
+    height: 550px;
+    border-radius: 25px;
+    max-width: 100%;
+
+}
+
+.div-vantagens {
+    display: flex;
+    flex-direction: row;
+    
+    width: 100%;
+    align-items: center;
+ 
+    justify-content: space-between;
+    
+}
+
+.div-content {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+.div-content h2 {
+    color: #D839AB;
+    font-family: 'Inter', sans-serif;
+    margin-top: -50px;
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+   
+   
+}
+
+.content h3 {
+    background: #FFB0DB;
+    padding: 20px;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 58px;
+    width: 90px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    text-align: center;
+}
+
+.content p {
+    background-color: #E5E3E3;
+    width: 650px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-family: 'Inter', sans-serif;
+    padding: 5px;
+    padding-top: 15px;
+}
+
+.mais-vantagens {
+    
+    width: 100%;
+    background: #FFB0DB;
+    
+}
+
+.mais-vantagens .container {
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.mais-vantagens .container h2 {
+    text-align: center;
+    padding: 60px;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 38px;
+    font-style: italic;
+}
+
+.mais-vantagens .container a {
+    margin: 40px auto;
+  
+}
+
+.div-coluns {
+    display: flex;
+    gap: 25px;
+    width: 100%;
+   
+    justify-content: center;
+}
+
+.div-coluns .coluns {
+    width: 260px;
+   
+}
+
+
+
+.div-coluns .coluns h3 {
+    background: #D839AB;
+    color: #FFF;
+    font-size: 58px;
+    text-align: center;
+    padding: 5px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    font-family: 'Inter', sans-serif;
+}
+
+.div-coluns .coluns p {
+    background-color: #FF93CD;
+    color: #fffefe;
+    height: 365px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.4;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+.atendimento .container {
+    flex-direction: column;
+    
+    justify-content: center;
+}
+
+
+.atendimento .container h2 {
+    color: #D839AB;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    padding: 15px;
+    font-size: 48px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.tipos-atendimentos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 20px auto;
+    
+   
+}
+
+.div-atendimentos {
+    width: 338px;
+    margin: 10px 50px;
+    
+}
+
+.div-atendimentos img {
+    max-width: 100%;
+    display: block;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.div-atendimentos h3 {
+    position: relative;
+    bottom: 95px;
+    text-align: center;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    font-size: 28px;
+    text-shadow: .5px .5px #000;
+}
+
+.div-atendimentos p{
+    background: #D839AB;
+    color: #FFF;
+    margin-top: -52px;
+    height: 170px;
+    padding: 20px;
+    font-family: 'Inter', sans-serif;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    line-height: 1.5;
+}
+
+.help {
+
+    background: #D839AB;
+}
+
+.help .container {
+    flex-direction: column;
+  
+    justify-content: center;
+}
+
+.help .container h2 {
+    margin: 0 auto;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.help .container .btn {
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.container-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 950px;
+    
+    margin: 0 auto;
+}
+
+.lista ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lista ul li {
+    font-size: 22px;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 10px;
+   
+}
+
+
+
+.lista ul li i {
+    font-size: 30px;
+
+    padding: 5px;
+    
+}
+
+.help .container {
+    padding-bottom: 30px;
+}
+
+footer p {
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+footer a {
+    color: #000;
+    transition: .5s ;
+}
+
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+@media (max-width: 1250px) {
+    .container {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .img-profile {
+       
+        border-radius: 50px;
+        max-width: 100%;
+    
+    }
+
+    .container-list {
+        width: 800px;
+    }
+
+    .help .container {
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 900px) {
+    .img-profile {
+        height: 450px;
+        border-radius: 50px;
+        max-width: 100%;
+        margin-right: 10px;
+        margin-top: 50px;
+    
+    }
+
+   
+
+    .content {
+        width: 420px;
+        height: 120px;
+    }
+
+    .div-content h2 {
+        margin-bottom: 15px;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .content p {
+        font-size: 12px;
+    }
+   
+
+    .mais-vantagens .container .btn {
+        margin-bottom: 50px;
+    }
+
+    .div-coluns {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+       
+    }
+
+    .div-coluns .coluns {
+        margin: 0 auto;
+    }
+   
+
+  
+
+    .div-coluns .coluns p {
+       
+        height: 250px;
+        font-size: 14px;
+    }
+
+    .tipos-atendimentos .div-atendimentos {
+        width: 300px;
+        margin: 10px 10px;
+    }
+
+    .tipos-atendimentos .div-atendimentos h3 {
+        font-size: 24px;
+    }
+
+    .tipos-atendimentos .div-atendimentos p {
+        margin-top: -30px;
+    }
+
+    .container-list {
+        max-width: 700px;
+       
+    }
+
+    .help .container {
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .div-text h2 {
+        font-size: 30px;
+    }
+
+    .vantagens .container {
+        height: auto;
+    }
+
+    .div-vantagens {
+        flex-direction: column;
+    }
+
+    .div-vantagens img {
+        height: 300px;
+        margin-bottom: 5px;
+        margin-top: -50px;
+    }
+
+    .div-content {
+        gap: 10px;
+        margin-bottom: 25px;
+    }
+  
+    .div-content h2 {
+        font-size: 30px;
+        margin-top: 10px;
+        margin-bottom: -5px;
+    }
+
+    .div-content .content h3 {
+        padding: 0;
+        padding: 32px;
+    }
+
+    .div-content p {
+        width: 300px;
+        height: 120px;
+        font-size: 12px;
+       
+    }
+
+    .div-atendimentos p {
+        padding: 10px;
+    }
+
+    .content {
+        justify-content: center;
+    }
+
+    .mais-vantagens {
+        justify-content: start;
+       
+    }
+    
+    .mais-vantagens .container h2 {
+        padding: 30px;
+       
+    }
+   
+
+    .div-coluns {
+        grid-template-columns: repeat(1, 1fr);
+       
+    }
+
+    .div-coluns .coluns {
+        margin: 0 auto;
+        width: 350px;
+        height: 320px;
+       
+        
+    }
+
+    .div-coluns .coluns h3 {
+        font-size: 38px;
+    }
+
+    .div-coluns .coluns p {
+        font-size: 18px;
+        height: 280px;
+    }
+
+    .atendimento .container h2 {
+        text-align: center;
+    }
+  
+    .tipos-atendimentos {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .help .container {
+        padding-bottom: 30px;
+    }
+
+    .help .container h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+
+    .container-list {
+        flex-direction: column;
+       
+    }
+
+    footer p {
+        font-size: 16px;
+    }
+  
+}
