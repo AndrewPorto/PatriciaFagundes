@@ -514,19 +514,20 @@ footer a:hover {
     }
 
     .div-content .content h3 {
-        padding: 0;
-        padding: 32px;
+
+        padding: 25px;
     }
 
     .div-content p {
         width: 300px;
         height: 120px;
         font-size: 12px;
+        padding: 7px;
        
     }
 
     .div-atendimentos p {
-        padding: 10px;
+        padding: 1px;
     }
 
     .content {
