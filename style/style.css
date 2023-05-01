@@ -8,6 +8,7 @@
     list-style: none;
 }
 
+
 .container {
     max-width: 1200px;
     display: flex;
@@ -84,7 +85,6 @@ header a .logo {
 
 .vantagens {
     background-image: url(../img/01.png);
-   
     background-position: center;
     background-size: cover;
 }
@@ -157,8 +157,6 @@ header a .logo {
 }
 
 .mais-vantagens {
-    
-    width: 100%;
     background: #FFB0DB;
     
 }
@@ -186,7 +184,7 @@ header a .logo {
 .div-coluns {
     display: flex;
     gap: 25px;
-    width: 100%;
+  
    
     justify-content: center;
 }
@@ -368,6 +366,7 @@ footer a:hover {
     .container {
         padding-left: 50px;
         padding-right: 50px;
+        max-width: 1250px;
     }
 
     .img-profile {
@@ -376,6 +375,10 @@ footer a:hover {
         max-width: 100%;
     
     }
+
+   
+
+   
 
     .container-list {
         width: 800px;
@@ -387,6 +390,10 @@ footer a:hover {
 }
 
 @media (max-width: 900px) {
+    .container {
+        max-width: 900px;
+    }
+
     .img-profile {
         height: 450px;
         border-radius: 50px;
@@ -399,7 +406,8 @@ footer a:hover {
    
 
     .content {
-        width: 420px;
+       
+        width: 410px;
         height: 120px;
     }
 
@@ -411,6 +419,8 @@ footer a:hover {
 
     .content p {
         font-size: 12px;
+        
+        
     }
    
 
@@ -461,22 +471,35 @@ footer a:hover {
 }
 
 @media (max-width: 600px) {
+    
+
+    .container {
+        max-width: 600px;
+       
+    }
+
+   
+   
     .div-text h2 {
         font-size: 30px;
     }
 
+   
+  
     .vantagens .container {
         height: auto;
     }
 
     .div-vantagens {
         flex-direction: column;
+       
     }
 
     .div-vantagens img {
         height: 300px;
         margin-bottom: 5px;
         margin-top: -50px;
+        
     }
 
     .div-content {
@@ -512,7 +535,7 @@ footer a:hover {
 
     .mais-vantagens {
         justify-content: start;
-       
+     
     }
     
     .mais-vantagens .container h2 {
@@ -543,12 +566,18 @@ footer a:hover {
         height: 280px;
     }
 
+  
+
     .atendimento .container h2 {
         text-align: center;
     }
   
     .tipos-atendimentos {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .help {
+        overflow: hidden;
     }
     
     .help .container {
@@ -569,5 +598,9 @@ footer a:hover {
     footer p {
         font-size: 16px;
     }
+
+
+
+ 
   
 }
