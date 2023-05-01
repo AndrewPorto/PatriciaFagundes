@@ -377,7 +377,9 @@ footer a:hover {
     }
 
    
-
+    .help {
+        overflow: hidden;
+    }
    
 
     .container-list {
@@ -463,6 +465,10 @@ footer a:hover {
     .container-list {
         max-width: 700px;
        
+    }
+
+    .help {
+        overflow: hidden;
     }
 
     .help .container {
