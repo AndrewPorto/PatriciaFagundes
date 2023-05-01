@@ -565,8 +565,12 @@ footer a:hover {
     .div-coluns .coluns p {
         font-size: 18px;
         height: 280px;
+        padding: 10px;
     }
 
+    .div-atendimentos p {
+        padding: 7px;
+    }
   
 
     .atendimento .container h2 {
@@ -600,7 +604,9 @@ footer a:hover {
         font-size: 16px;
     }
 
-
+    footer a {
+        text-decoration: underline;
+    }
 
  
   
